@@ -6,10 +6,12 @@ body {
     font-family: 'comic';
     margin: 0;
     padding: 0;
+    background-image: url(logo4.jpeg);
+    
     
 }
 nav {
-    width: 30%;
+    width: 50%;
     flex-wrap: wrap;
     
 }
@@ -25,7 +27,7 @@ nav {
     justify-content: space-around;
     margin: 0;
     padding: 0;
-    font-size: 1.3em;
+    font-size: 1.6em;
     border-radius: 5px;
     flex-wrap: wrap;
 
@@ -53,4 +55,74 @@ header {
     background-color: rgb(0, 0, 0);
    
 }
+.tit {
+    display: flex;
+    width: 100%;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+    color: #b500fc;
+    border-radius: 20px;
+}
+.titulo {
+    border: 9px;
+    display: flex;
+    font-size: 4em;
+    background: rgb(0, 0, 0);
+    padding: 25px 16px;
+    border-radius: 30px;
+    margin-bottom: 200px;
+}
+.sec-1 {
+    display: flex;
+    width: 100%;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+    color: #868181;
+    border-radius: 20px;
+    background: black;
+    font-size: 1.4em;
+    margin: 0;
+    padding: 0;
+}
+h2 {
+    color: #b500fc;
+}
+.sec-div1 {
+    width: 50%;
+    align-items: center;
+}
+.sec-div2 {
+    width: 400px;
+    height: 200px;
+    object-fit: contain;
+}
 
+.sec-2 {
+    display: flex;
+    width: 100%;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+    background-image: url(img-sec2.jpg);
+    padding: 25px 16px;
+    margin-top: 200px;
+    margin-bottom: 100px;
+    padding: 0;
+}
+.sec2-div1 {
+    color: rgb(0, 0, 0);
+    font-size: 1.3em;
+    flex-wrap: wrap wrap;
+    justify-content: space-around;
+    align-items: center;
+    
+}
+.sec2-div2 {
+    font-size: 1.3em;
+    color: rgb(11, 1, 1);
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+}
