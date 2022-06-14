@@ -37,7 +37,7 @@ li {
     font-size: 19px;
 }
 li:hover {
-    background-color: rgb(67, 0, 130);
+    background-color: rgb(162, 12, 159);
     transition: .5;
     border-radius: 10px;
 }
@@ -61,7 +61,7 @@ header {
     justify-content: space-around;
     align-items: center;
     flex-wrap: wrap;
-    color: #b500fc;
+    color: rgb(243, 9, 9);
     border-radius: 20px;
 }
 .titulo {
@@ -87,43 +87,160 @@ header {
     padding: 0;
 }
 h2 {
-    color: #b500fc;
+    color: rgb(243, 9, 9);
 }
 .sec-div1 {
     width: 50%;
     align-items: center;
 }
-.sec-div2 {
-    width: 400px;
-    height: 200px;
-    object-fit: contain;
-}
 
-.sec-2 {
+.cronograma {
+    width: 100%;
+}
+.tit-sec3{
     display: flex;
     width: 100%;
+    height: 100px;
     justify-content: space-around;
     align-items: center;
     flex-wrap: wrap;
-    background-image: url(img-sec2.jpg);
+    color: rgb(243, 9, 9);
+    border-radius: 20px;
+}
+.titulo-sec3{
+    border: 9px;
+    display: flex;
+    font-size: 2em;
+    background: rgb(0, 0, 0);
     padding: 25px 16px;
-    margin-top: 200px;
-    margin-bottom: 100px;
-    padding: 0;
-}
-.sec2-div1 {
-    color: rgb(0, 0, 0);
-    font-size: 1.3em;
-    flex-wrap: wrap wrap;
-    justify-content: space-around;
-    align-items: center;
+    border-radius: 30px;
+    
     
 }
-.sec2-div2 {
-    font-size: 1.6em;
-    color: rgb(11, 1, 1);
+.cronograma-1 {
+    display: inline-flex;
+    width: 26%;
+    justify-content: space-around;
+    align-items: center;
     flex-wrap: wrap;
+    color: #868181;
+    border-radius: 20px;
+    background: black;
+    font-size: 1.4em;
+    margin: 0;
+    padding: 20px;
+    margin-left: 70px;
+    margin-top: 20px; 
+} 
+.cronograma-1 img {
+  width: 100%;
+}
+.cronograma-2 {
+    display: inline-flex;
+    width: 26%;
     justify-content: space-around;
     align-items: center;
+    flex-wrap: wrap;
+    color: #868181;
+    border-radius: 20px;
+    background: black;
+    font-size: 1.4em;
+    margin: 0;
+    padding: 20px;
+    margin-left: 40px;
+    margin-top: 20px;
     
+    
+}
+.cronograma-2 img{
+    width: 100%;
+}
+.cronograma-3 {
+    display: inline-flex;
+    width: 26%;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+    color: #868181;
+    border-radius: 20px;
+    background: black;
+    font-size: 1.4em;
+    margin: 0;
+    padding: 20;
+    margin-left: 40px;
+    padding-top: 30px; 
+ 
+    
+}
+.cronograma-3 img{
+    width: 100%;
+}
+.proced {
+    width: 100%;
+    padding: 0;
+    margin: 0;
+}
+.proced-1{
+    display: flex;
+    width: 100%;
+    height: 100px;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+    color: rgb(243, 9, 9);
+    border-radius: 20px;
+}
+.tit-proced{
+    border: 9px;
+    display: block;
+    font-size: 2em;
+    background: rgb(0, 0, 0);
+    padding: 25px 16px;
+    border-radius: 30px;
+    margin: 20px;
+}
+
+.proced-2 {
+    display: inline-flex;
+    width: 26%;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+    color: #868181;
+    border-radius: 20px;
+    background: black;
+    font-size: 1.4em;
+    margin: 30px;
+    padding: 20;
+    
+    
+ 
+}
+.proced-3 {
+    display: inline-flex;
+    width: 26%;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+    color: #868181;
+    border-radius: 20px;
+    background: black;
+    font-size: 1.4em;
+    margin: 20px;
+    padding: 20;
+    
+}
+.proced-4 {
+    display: inline-flex;
+    width: 26%;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+    color: #868181;
+    border-radius: 20px;
+    background: black;
+    font-size: 1.4em;
+    margin: 20px;
+    padding: 20;
+
 }
