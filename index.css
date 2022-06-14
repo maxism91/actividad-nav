@@ -1,7 +1,4 @@
-@font-face {
-    font-family: 'comic';
-    src: url(/Comic_Neue\,Open_Sans\,Oswald/@font-face);
-}
+
 body {
     font-family: 'comic';
     margin: 0;
