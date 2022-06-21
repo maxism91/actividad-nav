@@ -208,10 +208,7 @@ h2 {
     background: black;
     font-size: 1.4em;
     margin: 30px;
-    padding: 20;
-    
-    
- 
+    padding: 20px;
 }
 .proced-3 {
     display: inline-flex;
@@ -224,8 +221,7 @@ h2 {
     background: black;
     font-size: 1.4em;
     margin: 20px;
-    padding: 20;
-    
+    padding: 20;   
 }
 .proced-4 {
     display: inline-flex;
@@ -238,6 +234,123 @@ h2 {
     background: black;
     font-size: 1.4em;
     margin: 20px;
-    padding: 20;
+    padding: 20px;
+}
+.provdores img {
+    width: 100%;
+}
+.papel {
+    display: inline-flex;
+    width: 26%;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+    border-radius: 20px;
+    background: black;
+    margin: 20px;
+    padding: 20px;
+}
+.papel:hover {
+    background-color: rgb(162, 12, 159);
+    transition: .5;
+    border-radius: 10px;
+}
+.maquinarias {
+    display: inline-flex;
+    width: 26%;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+    color: #868181;
+    border-radius: 20px;
+    background: black;
+    margin: 20px;
+    padding: 20px;
+}
+.maquinarias:hover {
+    background-color: rgb(162, 12, 159);
+    transition: .5;
+    border-radius: 10px;
+}
 
+.pintura {
+    display: inline-flex;
+    width: 26%;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+    border-radius: 20px;
+    background: black;
+    margin: 20px;
+    padding: 20px;
+}
+.pintura:hover {
+    background-color: rgb(162, 12, 159);
+    transition: .5;
+    border-radius: 10px;
+}
+.titulo-sec4 {
+    display: flex;
+    width: 100%;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+    color: rgb(243, 9, 9);
+    border-radius: 20px;
+}
+    
+.provedor-tit {
+    border: 9px;
+    display: flex;
+    font-size: 1.5em;
+    background: rgb(0, 0, 0);
+    padding: 20px 14px;
+    border-radius: 30px;
+}
+.informacion {
+    width: 100%;
+    
+}
+.tit-info {
+    display: flex;
+    width: 100%;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+    color: rgb(243, 9, 9);
+    border-radius: 20px;
+}
+.tit-contacto {
+    border: 9px;
+    display: flex;
+    font-size: 1.5em;
+    background: rgb(0, 0, 0);
+    padding: 20px 14px;
+    border-radius: 30px;
+}
+.contacto {
+    display: inline-block;
+    width: 40%;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+    color: #868181;
+    border-radius: 20px;
+    background: black;
+    margin-bottom: 20px;
+    list-style: none;
+    text-align: center;
+    
+
+}
+.maps {
+    display: inline-flex;
+    width: 40%;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+    border-radius: 20px;
+    background: black;
+    margin: 30px;
+    padding: 30px;
 }
