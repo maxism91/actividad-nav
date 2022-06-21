@@ -350,7 +350,20 @@ h2 {
     align-items: center;
     flex-wrap: wrap;
     border-radius: 20px;
-    background: black;
+    background: rgb(0, 0, 0);
     margin: 30px;
     padding: 30px;
+}
+.redes-sociales {
+    width: 30%;
+    justify-content: space-around;
+    display: flex;
+    flex-wrap: wrap;
+    color: rgb(0, 0, 0);
+    background-color: bisque;
+    border-radius: 20px;
+}
+
+i:hover {
+    color: rgb(162, 12, 159);
 }
